@@ -1,0 +1,33 @@
+{
+  "name": "ca",
+  "version": "0.0.1",
+  "description": "Course Assigment at Noroff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pjatte1337/CSS-Framework-CA.git"
+  },
+  "keywords": [
+    "ca",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Pjatte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pjatte1337/CSS-Framework-CA/issues"
+  },
+  "homepage": "https://github.com/Pjatte1337/CSS-Framework-CA#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.54.6"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

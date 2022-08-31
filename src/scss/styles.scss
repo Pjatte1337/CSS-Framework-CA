@@ -1,0 +1,100 @@
+@import "variables.scss";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Custom */
+body {
+    background-color: $black;
+}
+
+
+
+.navbar-brand,
+.form-text,
+p {
+    color: $white;
+}
+
+.nav-link {
+    color: $white;
+}
+
+.nav-link:hover,
+.navbar-brand:hover,
+.btn:hover {
+    color: $blue;
+}
+
+
+
+h1,
+label,
+h3 {
+    color: $blue;
+}
+
+.collapse .navbar-nav .active {
+    color: $blue;
+    text-decoration: underline;
+}
+
+
+.container {
+    min-width: auto ;
+}
+
+
+@media (max-width: 750px) {
+    .down  {
+        display: none;
+    }
+}
+
+.navbar-toggler-icon  {
+    background-color: $white;
+}
+
+
+/* FOOTER */
+.container a {
+    color: $blue;
+}
+
+footer li .nav-link,
+footer p{
+    color: $white;
+}
+
+
+.card-body .card-text {
+    color: $blue;
+}
+
+.names {
+    color: $blue;
+}
+
+.card-content,
+.card-name,
+.text-theme-text {
+    color: $black;
+}
+
+.card-name {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.card-title,
+.text-theme-text {
+    font-weight: 800;
+}
+
+.card-text {
+    font-style: italic;
+}
+
+.btn:hover {
+    color: $black;
+
+}
