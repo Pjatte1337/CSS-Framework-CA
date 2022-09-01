@@ -1,46 +1,93 @@
 @import "variables.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 /* Custom */
 body {
     background-color: $black;
+    font-family: 'roboto', sans-serif
 }
 
+/* Navbar */
+nav {
+    font-family: 'lobster two', sans-serif;
+    font-size: 24px;
+}
 
+.navbar-brand {
+    color: $red;
+    font-size: 34px;
+}
 
-.navbar-brand,
-.form-text,
-p {
+.navbar-brand:hover {
     color: $white;
+}
+
+.navbar-toggler-icon  {
+    background-color: $red;
+}
+
+.nav-link:hover {
+    color: $red;
 }
 
 .nav-link {
     color: $white;
 }
 
-.nav-link:hover,
-.navbar-brand:hover,
-.btn:hover {
-    color: $blue;
-}
-
-
-
-h1,
-label,
-h3 {
-    color: $blue;
-}
-
 .collapse .navbar-nav .active {
-    color: $blue;
+    color: $red;
     text-decoration: underline;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: $red;
+    color: $white;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: $black;
+    color: $white;
+}
+
+/* content */
+h1,
+h5,
+h4,
+.card-name {
+    color: $red;
+}
+
+.card {
+    background-color: $gray-600;
 }
 
 
-.container {
-    min-width: auto ;
+.card-name,
+.card-title {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24PX;
+}
+
+.card-text,
+.names {
+    font-style: italic;
+    font-size: 18PX;
+}
+
+.form-text,
+.form-label,
+h3, 
+p{
+    color: $white;
+}
+
+footer {
+    font-family: 'lobster two', sans-serif;
+    font-size: 24px;
 }
 
 
@@ -50,51 +97,28 @@ h3 {
     }
 }
 
-.navbar-toggler-icon  {
-    background-color: $white;
+/* font family */
+h1,
+h4 {
+    font-family: 'lobster two', sans-serif;
 }
 
 
-/* FOOTER */
-.container a {
-    color: $blue;
-}
-
-footer li .nav-link,
-footer p{
-    color: $white;
-}
 
 
-.card-body .card-text {
-    color: $blue;
-}
 
-.names {
-    color: $blue;
-}
 
-.card-content,
-.card-name,
-.text-theme-text {
-    color: $black;
-}
 
-.card-name {
-    font-style: italic;
-    font-weight: 800;
-}
 
-.card-title,
-.text-theme-text {
-    font-weight: 800;
-}
 
-.card-text {
-    font-style: italic;
-}
 
-.btn:hover {
-    color: $black;
 
-}
+
+
+
+
+
+
+
+
+
