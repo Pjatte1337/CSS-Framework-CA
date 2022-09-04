@@ -1,0 +1,124 @@
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Custom */
+body {
+    background-color: $black;
+    font-family: 'roboto', sans-serif
+}
+
+/* Navbar */
+nav {
+    font-family: 'lobster two', sans-serif;
+    font-size: 24px;
+}
+
+.navbar-brand {
+    color: $red;
+    font-size: 34px;
+}
+
+.navbar-brand:hover {
+    color: $white;
+}
+
+.navbar-toggler-icon  {
+    background-color: $red;
+}
+
+.nav-link:hover {
+    color: $red;
+}
+
+.nav-link {
+    color: $white;
+}
+
+.collapse .navbar-nav .active {
+    color: $red;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: $red;
+    color: $white;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: $black;
+    color: $white;
+}
+
+/* content */
+h1,
+h5,
+h4,
+.card-name {
+    color: $red;
+}
+
+.card {
+    background-color: $gray-600;
+}
+
+
+.card-name,
+.card-title {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24PX;
+}
+
+.card-text,
+.names {
+    font-style: italic;
+    font-size: 18PX;
+}
+
+.form-text,
+.form-label,
+h3, 
+p{
+    color: $white;
+}
+
+footer {
+    font-family: 'lobster two', sans-serif;
+    font-size: 24px;
+}
+
+
+@media (max-width: 750px) {
+    .down  {
+        display: none;
+    }
+}
+
+/* font family */
+h1,
+h4 {
+    font-family: 'lobster two', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
